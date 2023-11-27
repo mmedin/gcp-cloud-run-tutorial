@@ -34,7 +34,7 @@ Once the present repository has been cloned, located inside the project folder, 
 gcloud run deploy
 ```
 
-This is all it takes to prepare a container that includes the application and its dependencies, upload the container to the registry and finally deploy it to Cloud Run. As part of the process you will need to answer the questions that `gcloud` will present to you.
+This is all it takes to prepare a container that includes the application and its dependencies, upload the container to the registry and finally deploy it to Cloud Run. That is why it is not necessary to have Docker locally either. As part of the process you will need to answer the questions that `gcloud` will present to you.
 
 ## Cleanup
 
